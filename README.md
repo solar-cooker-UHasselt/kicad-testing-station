@@ -29,7 +29,7 @@ Here is a list of symbols that are definitely in the standard KiCad library:
 - test points
 
 > [!TIP]
-> ICs are usually not in the standard KiCad library, but they can easily be created with the symbol editor (Create, delete and edit symbols). Make sure you place new symbols in the external_library located in the [external](external/symbols/) folder.
+> ICs are usually not in the standard KiCad library, but they can easily be created with the symbol editor (Create, delete and edit symbols button). Make sure you place new symbols in the external_library located in the [external](external/symbols/) folder. If the external_library does not yet exist, you can create it in the symbol editor by clicking `File` > `New library` > `Project`. Place the newly created library in the [external](external/symbols/) folder.
 
 ### Replacing a symbol
 
