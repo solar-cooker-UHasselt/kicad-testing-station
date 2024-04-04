@@ -4,9 +4,20 @@ This repository uses the design files made available by Adafruit and Arduino. Th
 
 The Adafruit PCB files were created with [Autodesk Eagle](https://www.autodesk.com/products/eagle/free-download). The Arduino UNO R4 WiFi was created in [Altium Designer](https://www.altium.com/altium-designer). This repository uses [KiCad](https://www.kicad.org/download/), so the design files need to be migrated first.
 
+## Index
+
+- [How to migrate from Eagle to KiCad](#how-to-migrate-from-eagle-to-kicad)
+- [Switching to native KiCad symbols](#switching-to-native-kicad-symbols)
+  - [Replacing a symbol](#replacing-a-symbol)
+  - [Replacing a footprint](#replacing-a-footprint)
+- [PCB manufacturing](#pcb-manufacturing)
+  - [BOM layout](#bom-layout)
+  - [Generic components](#generic-components)
+- [Useful tools KiCad](#useful-tools-kicad)
+
 ## How to migrate from Eagle to KiCad
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > Before you start, make sure you download the source repository and place it somewhere on your PC.
 
 Open KiCad and navigate to `File`> `Import Non-KiCad Project` and click on `Eagle Project`. Now you will have to navigate to the Eagle project folder with the `.sch` and `.brd` file. Click on the `.sch` or `.brd` file and choose a destination folder afterwards. This will open the Eagle project in KiCad. You will get a prompt to map the layers of the board into KiCad layers, select `Auto-Match Layers`. It's possible that you will get a popup message telling you that some layers will didn't map, don't worry, just click `OK`.
@@ -37,13 +48,14 @@ Changing a symbol is very simple and goes as follows. Double click on the symbol
 
 ### Replacing a footprint
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > Make sure you found the component you want to use in [DigiKey](https://www.digikey.com/), [Mouser](https://eu.mouser.com/) or one supplier found on [this](https://www.eurocircuits.com/eurocircuits-preferred-component-suppliers/) site.
 
 If your component is in a [standard package](https://en.wikipedia.org/wiki/List_of_integrated_circuit_packaging_types), there is a possibility you will find it in KiCad.
 
 > [!TIP]
 > If you can't find a footprint or 3D model in KiCad, you can always try to find it online. Here are some useful sites:
+>
 > - [Component Search Engine](https://componentsearchengine.com/)
 > - [SnapEDA (preferred)](https://www.snapeda.com/)
 > - [Ultra Librarian](https://www.ultralibrarian.com/)
@@ -76,9 +88,10 @@ To have a PCB manufactured, Eurocircuits needs a couple of files. The first file
 Eurocircuits typical BOM file layout
 
 | Reference | Qty | Manufacturer | MPN | Supplier | SPN | Component package type | Description |
-|-----------|-----|--------------|-----|----------|-----|------------------------|-------------|
+| --------- | --- | ------------ | --- | -------- | --- | ---------------------- | ----------- |
 
 > [!NOTE]
+>
 > - MPN: Manufacturer part number
 > - SPN: Supplier part number
 
@@ -87,3 +100,11 @@ You will have to create these fields manually for each symbol. To bulk edit thes
 ### Generic components
 
 Eurociruits supplies a number of [generic components](https://www.eurocircuits.com/generic-components/). You can use these capacitors and resistors from eurocircuits. If you add them to your BOM file, you don't need to specify a manufacturer and MPN.
+
+## Useful tools KiCad
+
+- [Freerouting](https://github.com/freerouting/freerouting): auto route PCB boards
+- [KiBot](https://github.com/INTI-CMNB/KiBot): KiCad automation (CI/CD)
+- [KiKit](https://github.com/yaqwsx/KiKit): present PCB boards
+    - [PcbDraw](https://github.com/yaqwsx/PcbDraw)
+- [Kiri](https://github.com/leoheck/kiri): visual diff tool for KiCad projects
