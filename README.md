@@ -14,6 +14,7 @@ The Adafruit PCB files were created with [Autodesk Eagle](https://www.autodesk.c
   - [BOM layout](#bom-layout)
   - [Generic components](#generic-components)
 - [Useful tools KiCad](#useful-tools-kicad)
+  - [Kiri](#kiri)
 
 ## How to migrate from Eagle to KiCad
 
@@ -80,9 +81,6 @@ The last step is to open `Tools` > `Update PCB from Schematic` and then it will 
 
 To have a PCB manufactured, Eurocircuits needs a couple of files. The first file is the `.kicad_pcb` file. Eurocircuits also needs a BOM file to know which components are needed. BOM files can easily be created using the BOM button in the schematic editor. In the `Edit` tab of the popup window, you can change the values you want to display in the BOM files. Eurocircuits has a number of fields that are mandatory to fill in.
 
-> [!WARNING]
-> Eurocircuits does not currently support KiCad version 8 PCB file, gerber files will have to be used instead.
-
 ### BOM layout
 
 Eurocircuits typical BOM file layout
@@ -108,3 +106,15 @@ Eurociruits supplies a number of [generic components](https://www.eurocircuits.c
 - [KiKit](https://github.com/yaqwsx/KiKit): present PCB boards
     - [PcbDraw](https://github.com/yaqwsx/PcbDraw)
 - [Kiri](https://github.com/leoheck/kiri): visual diff tool for KiCad projects
+
+### Kiri
+
+Kiri gives you a quick way to see what you've changed from previous commits.
+
+You can find the Kiri installation instructions [here](https://github.com/leoheck/kiri/blob/main/INSTALL.md)
+
+Once the installation is finished you can run the kiri command in your git project folder and a browser tab will open automatically.
+
+```zsh
+kiri
+```
