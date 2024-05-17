@@ -593,6 +593,10 @@
     [
       "d3c2899f-e06d-436a-b13e-f951511bf9c5",
       "MAX31865"
+    ],
+    [
+      "7e22e2c2-9f9e-4784-92a8-ea554e7deb4d",
+      "BME680"
     ]
   ],
   "text_variables": {}

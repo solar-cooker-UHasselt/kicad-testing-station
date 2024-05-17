@@ -6,9 +6,85 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 52.705 43.18)
-		(size 14.605 13.335)
-		(fields_autoplaced yes)
+		(at 82.55 44.45)
+		(size 12.7 10.16)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7e22e2c2-9f9e-4784-92a8-ea554e7deb4d")
+		(property "Sheetname" "BME680"
+			(at 82.55 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BME680.kicad_sch"
+			(at 82.296 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MOSI" input
+			(at 95.25 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a7660ef5-f19c-4aa0-adf3-10de9b65a29f")
+		)
+		(pin "D6" input
+			(at 95.25 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "238d6753-bf8c-4536-81b9-d563a8fc8468")
+		)
+		(pin "MISO" input
+			(at 95.25 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dcad3bcc-c59c-484a-a65f-9ff41f1c1356")
+		)
+		(pin "SCK" input
+			(at 95.25 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "769c0f5c-9714-4354-9cd3-e8df6ff5eaa1")
+		)
+		(instances
+			(project "testing-station"
+				(path "/ed3950ec-e24f-4dd6-b9cc-eca012f1333b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 44.45)
+		(size 12.7 10.16)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -18,7 +94,7 @@
 		)
 		(uuid "d3c2899f-e06d-436a-b13e-f951511bf9c5")
 		(property "Sheetname" "MAX31865"
-			(at 52.705 42.4684 0)
+			(at 54.61 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +103,7 @@
 			)
 		)
 		(property "Sheetfile" "MAX31865.kicad_sch"
-			(at 52.705 57.0996 0)
+			(at 54.356 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,7 +112,7 @@
 			)
 		)
 		(pin "SCK" input
-			(at 67.31 45.72 0)
+			(at 67.31 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46,7 +122,7 @@
 			(uuid "a7dc297a-6473-442b-9c46-e11ac4fc5ab5")
 		)
 		(pin "MISO" input
-			(at 67.31 48.26 0)
+			(at 67.31 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56,7 +132,7 @@
 			(uuid "ca4505d7-53fe-43d9-b039-e1f4fc00b1ff")
 		)
 		(pin "CS" input
-			(at 67.31 50.8 0)
+			(at 67.31 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66,7 +142,7 @@
 			(uuid "663ba547-bfcd-4b8c-be6e-41ed0994e84d")
 		)
 		(pin "MOSI" input
-			(at 67.31 53.34 0)
+			(at 67.31 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
