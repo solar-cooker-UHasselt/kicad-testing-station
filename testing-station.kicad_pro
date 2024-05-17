@@ -597,6 +597,10 @@
     [
       "7e22e2c2-9f9e-4784-92a8-ea554e7deb4d",
       "BME680"
+    ],
+    [
+      "7b5dd94c-543e-4c31-b2c6-5bdcb1b32a26",
+      "DS3231"
     ]
   ],
   "text_variables": {}

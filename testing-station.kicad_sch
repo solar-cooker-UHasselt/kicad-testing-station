@@ -6,6 +6,64 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 53.34 73.66)
+		(size 12.7 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7b5dd94c-543e-4c31-b2c6-5bdcb1b32a26")
+		(property "Sheetname" "DS3231"
+			(at 53.34 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DS3231.kicad_sch"
+			(at 53.34 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" input
+			(at 66.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "812a6cd0-ec90-4b49-8a18-2b388a3d71af")
+		)
+		(pin "SCA" input
+			(at 66.04 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "38ed2997-ca3c-49a8-b116-69f968155374")
+		)
+		(instances
+			(project "testing-station"
+				(path "/ed3950ec-e24f-4dd6-b9cc-eca012f1333b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 82.55 44.45)
 		(size 12.7 10.16)
 		(stroke
