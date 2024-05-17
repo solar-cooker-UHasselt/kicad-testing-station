@@ -5,6 +5,84 @@
 	(uuid "ed3950ec-e24f-4dd6-b9cc-eca012f1333b")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 52.705 43.18)
+		(size 14.605 13.335)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d3c2899f-e06d-436a-b13e-f951511bf9c5")
+		(property "Sheetname" "MAX31865"
+			(at 52.705 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MAX31865.kicad_sch"
+			(at 52.705 57.0996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCK" input
+			(at 67.31 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a7dc297a-6473-442b-9c46-e11ac4fc5ab5")
+		)
+		(pin "MISO" input
+			(at 67.31 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ca4505d7-53fe-43d9-b039-e1f4fc00b1ff")
+		)
+		(pin "CS" input
+			(at 67.31 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "663ba547-bfcd-4b8c-be6e-41ed0994e84d")
+		)
+		(pin "MOSI" input
+			(at 67.31 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ef8c8fd7-3081-4f2c-8c68-3e39a016f00d")
+		)
+		(instances
+			(project "testing-station"
+				(path "/ed3950ec-e24f-4dd6-b9cc-eca012f1333b"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
