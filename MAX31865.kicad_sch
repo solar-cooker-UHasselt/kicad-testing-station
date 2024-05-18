@@ -3565,15 +3565,6 @@
 				(hide yes)
 			)
 		)
-		(property "Component package type" ""
-			(at 128.27 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "/"
 			(at 128.27 49.53 0)
 			(effects
@@ -3703,15 +3694,6 @@
 				(hide yes)
 			)
 		)
-		(property "Component package type" "SOD-323"
-			(at 81.28 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "1N4148WX-TP"
 			(at 81.28 76.2 0)
 			(effects
@@ -3816,15 +3798,6 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 125 mW, 0805 [2012 Metric], Thick Film, General Purpose"
-			(at 106.68 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component package type" ""
 			(at 106.68 62.23 0)
 			(effects
 				(font
@@ -3939,15 +3912,6 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 182.88 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component package type" ""
 			(at 182.88 87.63 0)
 			(effects
 				(font
@@ -4300,15 +4264,6 @@
 				(hide yes)
 			)
 		)
-		(property "Component package type" ""
-			(at 182.88 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" ""
 			(at 182.88 110.49 0)
 			(effects
@@ -4421,15 +4376,6 @@
 				(hide yes)
 			)
 		)
-		(property "Component package type" ""
-			(at 99.06 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "/"
 			(at 99.06 62.23 0)
 			(effects
@@ -4534,15 +4480,6 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 430 ohm, ± 1%, 125 mW, 0805 [2012 Metric], Thick Film, General Purpose"
-			(at 175.26 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component package type" ""
 			(at 175.26 71.12 0)
 			(effects
 				(font
@@ -4827,15 +4764,6 @@
 				(hide yes)
 			)
 		)
-		(property "Component package type" "SOD-323"
-			(at 81.28 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "1N4148WX-TP"
 			(at 81.28 72.39 0)
 			(effects
@@ -4948,15 +4876,6 @@
 				(hide yes)
 			)
 		)
-		(property "Component package type" ""
-			(at 102.87 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "/"
 			(at 102.87 55.88 0)
 			(effects
@@ -5060,15 +4979,6 @@
 			)
 		)
 		(property "Description" "0.1µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 146.05 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component package type" ""
 			(at 146.05 50.8 0)
 			(effects
 				(font
@@ -5311,15 +5221,6 @@
 				(hide yes)
 			)
 		)
-		(property "Component package type" ""
-			(at 139.7 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "LI0805G201R-10"
 			(at 139.7 41.91 0)
 			(effects
@@ -5423,15 +5324,6 @@
 			)
 		)
 		(property "Description" "0.1µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 170.18 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component package type" ""
 			(at 170.18 100.33 0)
 			(effects
 				(font
@@ -5569,15 +5461,6 @@
 				(hide yes)
 			)
 		)
-		(property "Component package type" "SOD-323"
-			(at 81.28 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "1N4148WX-TP"
 			(at 81.28 68.58 0)
 			(effects
@@ -5685,15 +5568,6 @@
 			)
 		)
 		(property "Description" "IC RTD TO DIGITAL CONVERT 20QFN"
-			(at 137.16 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component package type" "20-TQFN (5x5)"
 			(at 137.16 82.55 0)
 			(effects
 				(font

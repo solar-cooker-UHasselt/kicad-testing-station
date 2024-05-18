@@ -1983,15 +1983,6 @@
 				(hide yes)
 			)
 		)
-		(property "Component package type" "16-SOIC"
-			(at 96.52 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "2ad0a98e-a41d-4df6-9f5b-8bdb092c88f1")
 		)
@@ -2139,15 +2130,6 @@
 				(hide yes)
 			)
 		)
-		(property "Component package type" "0805"
-			(at 135.89 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5a0c7230-8470-4ed8-9fdc-f8f30da13594")
 		)
@@ -2245,15 +2227,6 @@
 			)
 		)
 		(property "SPN" "GPR08051K"
-			(at 147.32 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component package type" "R_0805"
 			(at 147.32 73.66 90)
 			(effects
 				(font
@@ -2489,15 +2462,6 @@
 			)
 		)
 		(property "SPN" "2073-MEM2061-01-188-00-ACT-ND"
-			(at 181.61 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component package type" "/"
 			(at 181.61 81.28 0)
 			(effects
 				(font

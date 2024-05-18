@@ -1140,7 +1140,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated"
+		(property "Description" "CONN RCPT 8POS 0.1 GOLD PCB"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1149,6 +1149,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SSQ-108-01-G-S"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a30fdec6-4fb4-40b9-a7be-16181403a2c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ccefedb-ae2f-4a57-bd15-ea102532f380")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SPN" "SAM1180-08-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0743f212-3bcc-45b2-afae-6bfd88c020db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d2acef3-2625-4c10-9721-a686938530f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5019,7 +5071,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x10, script generated"
+		(property "Description" "CONN RCPT 10POS 0.1 GOLD PCB"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5028,6 +5080,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component package type" "/"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ea9ffaf-d7e1-4688-89be-e8c50c6f35eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SSQ-110-01-G-S"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6b36c6d-bf6f-4882-a174-d75c24740826")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74459b83-cf54-4166-8cc7-cb79508f26f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SPN" "SAM1180-10-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73fe0a36-e291-4de4-906c-c2c14a1ea956")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6940dc01-c31d-4ece-8285-fd3b79921534")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6367,7 +6484,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "TERM BLK 4POS SIDE ENT 3.5MM PCB"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6392,7 +6509,7 @@
 				)
 			)
 		)
-		(property "MPN" "0395430004"
+		(property "MPN" "0393570004"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6418,7 +6535,7 @@
 				)
 			)
 		)
-		(property "SPN" "WM13967-ND"
+		(property "SPN" "WM7860-ND"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11572,7 +11689,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "TERM BLK 3POS SIDE ENT 3.5MM PCB"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11597,7 +11714,7 @@
 				)
 			)
 		)
-		(property "MPN" "0395430003"
+		(property "MPN" "0393570003"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11623,7 +11740,7 @@
 				)
 			)
 		)
-		(property "SPN" "WM9752-ND"
+		(property "SPN" "WM7878-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13013,7 +13130,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated"
+		(property "Description" "CONN RCPT 8POS 0.1 GOLD PCB"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13022,6 +13139,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component package type" "/"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63d801b1-9402-4ffa-a1a0-77a2dca1630c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SSQ-108-01-G-S"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "275ebe4a-3f07-42bc-93f2-84e2d5828a6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5067627e-d515-4058-aabc-a410180d29b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SPN" "SAM1180-08-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "649cd7e5-4c5c-415a-9a88-171fcdd4dc83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ff854e0-b5d6-46b8-a092-b51b810d0895")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17907,7 +18089,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
+		(property "Description" "CONN RCPT 6POS 0.1 GOLD PCB"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17916,6 +18098,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SSQ-106-01-G-S"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2dad1471-0258-483b-95a0-142a17bf0537")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6df0163-4270-4417-9a2f-e724af2dd55e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SPN" "SAM1180-06-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1315bc3e-3549-4ddf-8084-ca1759d5d310")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4bdb3763-d76b-46d0-897a-cee87f986072")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20446,7 +20680,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "TERM BLK 4POS SIDE ENT 3.5MM PCB"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20471,7 +20705,7 @@
 				)
 			)
 		)
-		(property "MPN" "0395430004"
+		(property "MPN" "0393570004"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20497,7 +20731,7 @@
 				)
 			)
 		)
-		(property "SPN" "WM13967-ND"
+		(property "SPN" "WM7860-ND"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21922,7 +22156,7 @@
 		(at 176.94375 101.495 90)
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
-		(property "Reference" "SJ1"
+		(property "Reference" "JP10"
 			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(hide yes)

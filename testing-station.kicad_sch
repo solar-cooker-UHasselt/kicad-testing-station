@@ -5451,7 +5451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "TERM BLK 4POS SIDE ENT 3.5MM PCB"
 			(at 146.05 95.25 0)
 			(effects
 				(font
@@ -5469,7 +5469,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0395430004"
+		(property "MPN" "0393570004"
 			(at 146.05 95.25 0)
 			(effects
 				(font
@@ -5487,7 +5487,7 @@
 				(hide yes)
 			)
 		)
-		(property "SPN" "WM13967-ND"
+		(property "SPN" "WM7860-ND"
 			(at 146.05 95.25 0)
 			(effects
 				(font
@@ -5560,7 +5560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "TERM BLK 4POS SIDE ENT 3.5MM PCB"
 			(at 104.14 95.25 0)
 			(effects
 				(font
@@ -5578,7 +5578,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0395430004"
+		(property "MPN" "0393570004"
 			(at 104.14 95.25 0)
 			(effects
 				(font
@@ -5596,7 +5596,7 @@
 				(hide yes)
 			)
 		)
-		(property "SPN" "WM13967-ND"
+		(property "SPN" "WM7860-ND"
 			(at 104.14 95.25 0)
 			(effects
 				(font
@@ -5773,15 +5773,6 @@
 			)
 		)
 		(property "SPN" "GPR1206150R"
-			(at 99.06 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component package type" "R_1206"
 			(at 99.06 130.81 0)
 			(effects
 				(font
@@ -6394,15 +6385,6 @@
 				(hide yes)
 			)
 		)
-		(property "Component package type" "1206"
-			(at 114.935 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8bc3e38e-cd92-427f-ac92-2e18aa3b84bc")
 		)
@@ -6464,7 +6446,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
+		(property "Description" "CONN RCPT 6POS 0.1 GOLD PCB"
+			(at 214.63 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SSQ-106-01-G-S"
+			(at 214.63 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 214.63 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "SAM1180-06-ND"
+			(at 214.63 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
 			(at 214.63 113.03 0)
 			(effects
 				(font
@@ -6655,15 +6673,6 @@
 				(hide yes)
 			)
 		)
-		(property "Component package type" "R_1206"
-			(at 114.935 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8b21b631-3221-46a2-9e5c-650ac541e701")
 		)
@@ -6824,15 +6833,6 @@
 			)
 		)
 		(property "SPN" "732-4993-1-ND"
-			(at 99.06 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component package type" "1206"
 			(at 99.06 121.92 0)
 			(effects
 				(font
@@ -7273,7 +7273,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x10, script generated"
+		(property "Description" "CONN RCPT 10POS 0.1 GOLD PCB"
+			(at 218.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SSQ-110-01-G-S"
+			(at 218.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 218.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "SAM1180-10-ND"
+			(at 218.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
 			(at 218.44 83.82 0)
 			(effects
 				(font
@@ -7364,7 +7400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "TERM BLK 3POS SIDE ENT 3.5MM PCB"
 			(at 125.73 95.25 0)
 			(effects
 				(font
@@ -7382,7 +7418,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0395430003"
+		(property "MPN" "0393570003"
 			(at 125.73 95.25 0)
 			(effects
 				(font
@@ -7400,7 +7436,7 @@
 				(hide yes)
 			)
 		)
-		(property "SPN" "WM9752-ND"
+		(property "SPN" "WM7878-ND"
 			(at 125.73 95.25 0)
 			(effects
 				(font
@@ -7474,7 +7510,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated"
+		(property "Description" "CONN RCPT 8POS 0.1 GOLD PCB"
+			(at 218.44 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SSQ-108-01-G-S"
+			(at 218.44 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 218.44 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "SAM1180-08-ND"
+			(at 218.44 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
 			(at 218.44 110.49 0)
 			(effects
 				(font
@@ -7637,15 +7709,6 @@
 			)
 		)
 		(property "MPN" "XF2M-1815-1A"
-			(at 171.45 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component package type" "/"
 			(at 171.45 106.68 0)
 			(effects
 				(font
@@ -7900,15 +7963,6 @@
 				(hide yes)
 			)
 		)
-		(property "Component package type" "R_1206"
-			(at 138.43 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "96d5e6a0-b1d0-4fa7-9d5b-107f8052b0d0")
 		)
@@ -8100,7 +8154,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated"
+		(property "Description" "CONN RCPT 8POS 0.1 GOLD PCB"
+			(at 214.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SSQ-108-01-G-S"
+			(at 214.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 214.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "SAM1180-08-ND"
+			(at 214.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
 			(at 214.63 86.36 0)
 			(effects
 				(font

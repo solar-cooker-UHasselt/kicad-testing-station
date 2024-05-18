@@ -1273,15 +1273,6 @@
 				(hide yes)
 			)
 		)
-		(property "Component package type" "R_0805"
-			(at 179.07 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8c8e1392-ff20-4614-be78-1623768dbfd4")
 		)
@@ -1509,15 +1500,6 @@
 			)
 		)
 		(property "SPN" "GPR080510K"
-			(at 171.45 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component package type" "R_0805"
 			(at 171.45 82.55 0)
 			(effects
 				(font
@@ -1761,15 +1743,6 @@
 				(hide yes)
 			)
 		)
-		(property "Component package type" "/"
-			(at 143.51 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7472debf-bf19-4797-8050-54a95499a83a")
 		)
@@ -1909,15 +1882,6 @@
 			)
 		)
 		(property "SPN" "36-3001-ND"
-			(at 172.72 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component package type" "/"
 			(at 172.72 101.6 0)
 			(effects
 				(font

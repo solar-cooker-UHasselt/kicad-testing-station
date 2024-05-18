@@ -58,22 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "silk_edge_clearance|198241233|111355000|4caeadb3-53c3-4625-ba3f-755cdbb17170|32e821ea-4df9-4c89-ae4e-4e589d303abc",
-        "silk_edge_clearance|198241233|98035000|4caeadb3-53c3-4625-ba3f-755cdbb17170|90c7e95c-05df-4201-bafb-130f2aa8a22b",
-        "silk_over_copper|193454250|111355000|d160e9b4-bcb2-474b-ab2e-deb46d17415f|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|193454251|98035000|d20c851f-78c7-460f-9592-58737bc0ac0d|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|193459986|98035102|938ac6be-7dba-4f86-a723-a62edf0cc145|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|193616148|114591264|442d2534-6bc2-4fe2-990a-2cd07d66c6ab|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|193616148|114591264|9d10136c-1748-4f20-897e-d6a71387b13c|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|194514129|95788030|f3250678-42e7-46d4-965e-1c2f47731d2b|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|195310250|114010800|89b57d03-78f3-4f62-b3b8-894b440fc50b|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|196796048|94798918|06a12368-a198-4072-af77-6b44dad28610|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|196796048|94798918|5e319c1a-dc2b-43c5-b955-cca16c4246b4|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|196836695|114553130|4a2f9b49-a727-4796-afe3-8c548b163d2e|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|196858249|111355000|32e821ea-4df9-4c89-ae4e-4e589d303abc|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|196858250|98035000|90c7e95c-05df-4201-bafb-130f2aa8a22b|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -508,10 +493,10 @@
     "annotate_start_num": 0,
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
-      "field_delimiter": ",",
+      "field_delimiter": ";",
       "keep_line_breaks": false,
       "keep_tabs": false,
-      "name": "CSV",
+      "name": "---",
       "ref_delimiter": ",",
       "ref_range_delimiter": "",
       "string_delimiter": "\""
@@ -527,7 +512,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": false
@@ -600,12 +585,6 @@
         },
         {
           "group_by": false,
-          "label": "Component package type",
-          "name": "Component package type",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Description",
           "name": "Description",
           "show": true
@@ -615,7 +594,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "SPN"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

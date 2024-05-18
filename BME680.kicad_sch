@@ -2968,15 +2968,6 @@
 				(hide yes)
 			)
 		)
-		(property "Component package type" "R_0603"
-			(at 128.27 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "eb560abc-334f-4b92-8876-e7253dfde2d5")
 		)
@@ -3147,15 +3138,6 @@
 				(hide yes)
 			)
 		)
-		(property "Component package type" "R_0603"
-			(at 160.02 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f8657011-60c1-4498-aa7f-38d31e8db4f3")
 		)
@@ -3310,8 +3292,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "409ebe11-0e87-4761-a563-5e6b3d643b17")
-		(property "Reference" "SJ1"
-			(at 204.978 125.222 90)
+		(property "Reference" "JP10"
+			(at 203.962 125.222 90)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -3401,7 +3383,7 @@
 		(instances
 			(project "testing-station"
 				(path "/ed3950ec-e24f-4dd6-b9cc-eca012f1333b/7e22e2c2-9f9e-4784-92a8-ea554e7deb4d"
-					(reference "SJ1")
+					(reference "JP10")
 					(unit 1)
 				)
 			)
@@ -3492,15 +3474,6 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 171.45 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component package type" "SOT-363"
 			(at 171.45 85.09 0)
 			(effects
 				(font
@@ -3616,15 +3589,6 @@
 			)
 		)
 		(property "Supplier" "Eurocircuits"
-			(at 172.72 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component package type" "R_0603"
 			(at 172.72 114.3 0)
 			(effects
 				(font
@@ -3867,15 +3831,6 @@
 				(hide yes)
 			)
 		)
-		(property "Component package type" "R_0603"
-			(at 209.55 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "fffa6256-8dfa-4a23-9305-8918f7fd99a6")
 		)
@@ -4105,15 +4060,6 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 177.8 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component package type" "SOT-363"
 			(at 177.8 74.93 0)
 			(effects
 				(font
@@ -4367,15 +4313,6 @@
 				(hide yes)
 			)
 		)
-		(property "Component package type" "LED_0603"
-			(at 128.27 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "d98df70b-7322-4738-a657-3cae584ba785")
 		)
@@ -4547,15 +4484,6 @@
 				(hide yes)
 			)
 		)
-		(property "Component package type" "R_0603"
-			(at 185.42 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "21709578-54f5-4b08-882b-33d0c2fef564")
 		)
@@ -4653,15 +4581,6 @@
 			)
 		)
 		(property "Supplier" "Eurocircuits"
-			(at 193.04 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component package type" "R_0603"
 			(at 193.04 67.31 0)
 			(effects
 				(font
@@ -5030,15 +4949,6 @@
 				(hide yes)
 			)
 		)
-		(property "Component package type" "R_0603"
-			(at 166.37 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b1ef2af5-8a92-4206-9c17-e774e690ea1b")
 		)
@@ -5199,15 +5109,6 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 185.42 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component package type" "SOD-323"
 			(at 185.42 119.38 0)
 			(effects
 				(font
