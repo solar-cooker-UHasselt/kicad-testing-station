@@ -8,10 +8,8 @@
 	)
 	(paper "A4")
 	(layers
-		(0 "F.Cu" signal)
-		(1 "In1.Cu" signal)
-		(2 "In2.Cu" signal)
-		(31 "B.Cu" signal)
+		(0 "F.Cu" power)
+		(31 "B.Cu" power)
 		(32 "B.Adhes" user "B.Adhesive")
 		(33 "F.Adhes" user "F.Adhesive")
 		(34 "B.Paste" user)
@@ -59,33 +57,9 @@
 				(thickness 0.035)
 			)
 			(layer "dielectric 1"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 2"
 				(type "core")
 				(color "FR4 natural")
-				(thickness 1.24)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 3"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.1)
+				(thickness 1.51)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -32533,7 +32507,7 @@
 	(footprint "PCM_arduino-library:Arduino_Uno_R4_WiFi_Shield"
 		(layer "B.Cu")
 		(uuid "598cedc1-f6e8-4572-83ad-fdfc963d0e61")
-		(at 249.680119 78.77 180)
+		(at 250.080119 78.67 180)
 		(descr "https://docs.arduino.cc/hardware/uno-r4-wifi")
 		(property "Reference" "A1"
 			(at 2.54 54.356 180)
@@ -33907,5 +33881,47 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "23af92cd-29ba-4a15-80ab-4dd36742438a")
+	)
+	(zone
+		(net 108)
+		(net_name "+5V")
+		(layer "F.Cu")
+		(uuid "b8fe064a-5366-4e3c-8956-ccaca6348056")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 41.5 21.4) (xy 254.5 21.3) (xy 254.5 135.062207) (xy 41.5 135)
+			)
+		)
+	)
+	(zone
+		(net 49)
+		(net_name "GND")
+		(layer "B.Cu")
+		(uuid "e8a049ef-18e4-4307-8dc2-ded1576703c6")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 41.5 21.3) (xy 254.5 21.2) (xy 254.5 135.1) (xy 41.5 135)
+			)
+		)
 	)
 )
