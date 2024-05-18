@@ -441,8 +441,7 @@
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
-      "external_symbols",
-      "MAX31865"
+      "external_symbols"
     ]
   },
   "meta": {
