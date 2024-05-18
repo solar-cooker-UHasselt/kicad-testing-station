@@ -6589,7 +6589,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x04"
+		(property "Value" "Pt100"
 			(at 199.39 97.7899 0)
 			(effects
 				(font
