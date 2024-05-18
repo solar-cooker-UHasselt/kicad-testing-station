@@ -813,7 +813,7 @@
 				)
 			)
 		)
-		(symbol "external_library:74HC4050D"
+		(symbol "external_symbols:74HC4050D"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1162,7 +1162,7 @@
 				)
 			)
 		)
-		(symbol "external_library:LP2985A"
+		(symbol "external_symbols:LP2985A"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2615,7 +2615,7 @@
 		)
 	)
 	(symbol
-		(lib_id "external_library:74HC4050D")
+		(lib_id "external_symbols:74HC4050D")
 		(at 96.52 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3466,7 +3466,7 @@
 				)
 			)
 		)
-		(property "Footprint" "external_footprints:GCT_MEM2061-01-188-00-A_REVA"
+		(property "Footprint" "external_footprints:MEM2061-01-188-00-A"
 			(at 233.68 63.5 0)
 			(effects
 				(font
@@ -3958,7 +3958,7 @@
 		)
 	)
 	(symbol
-		(lib_id "external_library:LP2985A")
+		(lib_id "external_symbols:LP2985A")
 		(at 146.05 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
