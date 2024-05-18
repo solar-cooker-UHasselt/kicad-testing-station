@@ -2208,6 +2208,10 @@
 		(color 0 0 0 0)
 		(uuid "f2e14cfe-5bd0-400a-bfed-35d171287f33")
 	)
+	(no_connect
+		(at 121.92 67.31)
+		(uuid "17c7f176-7f03-4872-b5c4-b6761aba3a1e")
+	)
 	(wire
 		(pts
 			(xy 158.75 87.63) (xy 158.75 95.25)
@@ -2530,7 +2534,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 138.43) (xy 135.89 138.43)
+			(xy 101.6 100.33) (xy 110.49 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2830,16 +2834,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 67.31) (xy 109.22 67.31)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "aa88652d-451e-4592-a3b2-580b0da13688")
-	)
-	(wire
-		(pts
 			(xy 153.67 115.57) (xy 153.67 95.25)
 		)
 		(stroke
@@ -2850,7 +2844,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 133.35) (xy 135.89 133.35)
+			(xy 101.6 95.25) (xy 110.49 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2860,7 +2854,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 130.81) (xy 135.89 130.81)
+			(xy 101.6 92.71) (xy 110.49 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2950,7 +2944,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 135.89) (xy 135.89 135.89)
+			(xy 101.6 97.79) (xy 110.49 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3162,17 +3156,6 @@
 		)
 		(uuid "ee40ef6c-bcc4-4fe1-9c5f-387d4efb06c8")
 	)
-	(label "DRDY"
-		(at 109.22 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "03cedb15-ca58-411d-b296-852220187a3a")
-	)
 	(label "SDO"
 		(at 109.22 77.47 0)
 		(fields_autoplaced yes)
@@ -3185,7 +3168,7 @@
 		(uuid "047ae961-4f3d-4e2e-a691-1284fc011175")
 	)
 	(label "SDO"
-		(at 135.89 133.35 180)
+		(at 110.49 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3218,7 +3201,7 @@
 		(uuid "700e1857-b2a0-48fd-a827-78f31bcb06e2")
 	)
 	(label "SDI_5V"
-		(at 135.89 135.89 180)
+		(at 110.49 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3229,7 +3212,7 @@
 		(uuid "7d9b1051-6ee9-411a-93c2-2680fac8bd27")
 	)
 	(label "CS_5V"
-		(at 135.89 138.43 180)
+		(at 110.49 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3251,7 +3234,7 @@
 		(uuid "d55575c1-1773-43e0-951b-6e8264b6263a")
 	)
 	(label "SCLK_5V"
-		(at 135.89 130.81 180)
+		(at 110.49 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3263,7 +3246,7 @@
 	)
 	(hierarchical_label "MISO"
 		(shape input)
-		(at 127 133.35 180)
+		(at 101.6 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3275,7 +3258,7 @@
 	)
 	(hierarchical_label "SCK"
 		(shape input)
-		(at 127 130.81 180)
+		(at 101.6 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3287,7 +3270,7 @@
 	)
 	(hierarchical_label "MOSI"
 		(shape input)
-		(at 127 135.89 180)
+		(at 101.6 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3299,7 +3282,7 @@
 	)
 	(hierarchical_label "CS"
 		(shape input)
-		(at 127 138.43 180)
+		(at 101.6 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font

@@ -6751,7 +6751,7 @@
 			)
 		)
 		(property "Value" "LED_GREEN"
-			(at 82.55 149.225 90)
+			(at 81.788 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
