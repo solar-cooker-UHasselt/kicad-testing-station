@@ -516,7 +516,7 @@
 				)
 			)
 		)
-		(symbol "external_library:DS3231"
+		(symbol "external_symbols:DS3231"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -569,6 +569,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "MPN" ""
@@ -577,6 +578,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Supplier" ""
@@ -585,6 +587,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "SPN" ""
@@ -593,6 +596,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Component package type" ""
@@ -601,19 +605,7 @@
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(symbol "DS3231_0_1"
-				(rectangle
-					(start 0 20.32)
-					(end 15.24 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
 			)
 			(symbol "DS3231_1_0"
@@ -903,6 +895,19 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "DS3231_1_1"
+				(rectangle
+					(start 0 20.32)
+					(end 15.24 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -2019,7 +2024,7 @@
 		)
 	)
 	(symbol
-		(lib_id "external_library:DS3231")
+		(lib_id "external_symbols:DS3231")
 		(at 143.51 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2397,7 +2402,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "external_footprints:CR1220-SMD"
+		(property "Footprint" "external_footprints:CR1220"
 			(at 175.26 100.076 90)
 			(effects
 				(font
