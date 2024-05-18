@@ -609,6 +609,10 @@
     [
       "7b5dd94c-543e-4c31-b2c6-5bdcb1b32a26",
       "DS3231"
+    ],
+    [
+      "535b300a-c6bc-4326-93aa-a53347054cf5",
+      "microSD"
     ]
   ],
   "text_variables": {}
