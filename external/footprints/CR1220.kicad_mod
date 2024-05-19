@@ -1,4 +1,4 @@
-(footprint "CR1220-SMD"
+(footprint "CR1220"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "CR1220-SMD"
+	(property "Value" "CR1220"
 		(at 4.064 3.7118 0)
 		(layer "F.Fab")
 		(uuid "361b0801-9e49-4f53-ad7b-1a2a8300376b")
@@ -25,7 +25,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "CR1220"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -242,38 +242,16 @@
 		(layer "F.SilkS")
 		(uuid "29d2159e-91a1-4896-8186-3c50181dc72f")
 	)
-	(fp_circle
-		(center -8.254 0)
-		(end -7.3382 0)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "3c424884-2e63-491e-953b-d214e9fe0ca0")
-	)
-	(fp_circle
-		(center 8.4 -0.154)
-		(end 9.3158 -0.154)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "4d8fcde4-3050-4985-bea6-4d03ddae2dd0")
-	)
 	(pad "" smd rect
-		(at 8.2 0)
-		(size 3.2 3.2)
+		(at 8.25 -0.05)
+		(size 2.7 2.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.102)
 		(uuid "f2bbaeca-8ad8-40dc-b364-4727a6d32450")
 	)
 	(pad "1" smd rect
 		(at -8.2 0)
-		(size 3.2 3.2)
+		(size 2.7 2.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.102)
 		(uuid "e0549a41-6953-4467-a5f1-0cef1d1be9d9")
