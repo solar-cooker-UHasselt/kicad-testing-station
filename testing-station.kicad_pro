@@ -442,7 +442,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "external_footprints"
+    ],
     "pinned_symbol_libs": [
       "external_symbols"
     ]

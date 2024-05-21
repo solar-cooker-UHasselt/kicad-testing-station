@@ -5194,7 +5194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "external_footprints:LI0805G201R-10"
 			(at 141.478 41.91 90)
 			(effects
 				(font
@@ -5548,7 +5548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:TQFN-20-1EP_5x5mm_P0.65mm_EP3.25x3.25mm"
+		(property "Footprint" "external_footprints:MAX31865ATP+"
 			(at 140.97 99.06 0)
 			(effects
 				(font
