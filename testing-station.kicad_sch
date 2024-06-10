@@ -4988,7 +4988,7 @@
 		)
 		(uuid "39038aeb-0b3b-41a4-ab03-9a3cb4cea457")
 	)
-	(label "SCA"
+	(label "SDA"
 		(at 228.6 76.2 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5329,7 +5329,7 @@
 		)
 		(uuid "c4fa022a-cfdf-4e25-84aa-45c8b6a6762f")
 	)
-	(label "SCA"
+	(label "SDA"
 		(at 138.43 62.23 180)
 		(fields_autoplaced yes)
 		(effects
