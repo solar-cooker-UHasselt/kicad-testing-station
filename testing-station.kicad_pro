@@ -59,8 +59,8 @@
         }
       ],
       "drc_exclusions": [
-        "silk_edge_clearance|198241233|111355000|4caeadb3-53c3-4625-ba3f-755cdbb17170|18090b47-d337-4c70-a65a-ad6a696461ae",
-        "silk_edge_clearance|198241233|98035000|4caeadb3-53c3-4625-ba3f-755cdbb17170|f03d609f-d164-4411-bd59-03c4b93bdc18"
+        "silk_edge_clearance|135616250|103270000|4caeadb3-53c3-4625-ba3f-755cdbb17170|f03d609f-d164-4411-bd59-03c4b93bdc18",
+        "silk_edge_clearance|135616250|116590000|4caeadb3-53c3-4625-ba3f-755cdbb17170|18090b47-d337-4c70-a65a-ad6a696461ae"
       ],
       "meta": {
         "version": 2
@@ -82,6 +82,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -488,7 +489,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "testing_station_v3.1_STEP.step",
       "svg": "",
       "vrml": ""
     },
@@ -496,6 +497,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "testing_station_v3.1_BOM.csv ",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
