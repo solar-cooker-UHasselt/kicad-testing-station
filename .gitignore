@@ -32,3 +32,6 @@ fp-info-cache
 .kiri
 *.txt
 *auto_saved*
+
+# Commit messages and local reports
+tmp/
