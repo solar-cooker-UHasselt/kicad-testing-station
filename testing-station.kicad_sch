@@ -4264,6 +4264,50 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "D0"
+		(exclude_from_sim no)
+		(at 228.6 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2ec2b1d9-7a5e-4ecf-aef5-1da5afab543d")
+	)
+	(text "A5"
+		(exclude_from_sim no)
+		(at 204.47 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3272e9c9-2246-4771-b2c0-d066c76168e7")
+	)
+	(text "A4"
+		(exclude_from_sim no)
+		(at 204.47 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fe87224-20b9-4aac-b73d-2f7227a64b28")
+	)
+	(text "D1"
+		(exclude_from_sim no)
+		(at 228.6 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c2ff0b19-6ec4-4d66-a98b-8b9e4831d492")
+	)
 	(junction
 		(at 96.52 100.33)
 		(diameter 0)
@@ -5635,16 +5679,6 @@
 		)
 		(uuid "1d8d6745-f2c0-4d8a-ab7b-1b037c94a131")
 	)
-	(label "D1"
-		(at 228.6 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2a633146-7a33-460d-a169-35fd337b683a")
-	)
 	(label "D7"
 		(at 160.02 101.6 0)
 		(effects
@@ -5654,16 +5688,6 @@
 			(justify left bottom)
 		)
 		(uuid "2f6f49e2-ec8d-4d09-8024-0b77c88f91e3")
-	)
-	(label "D0"
-		(at 228.6 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "318e918f-adde-4ae3-bdb3-5528efe9f483")
 	)
 	(label "D2"
 		(at 119.38 115.57 180)
@@ -5724,16 +5748,6 @@
 			(justify right bottom)
 		)
 		(uuid "52367ee5-3b63-4f17-8718-c1fa3d4ea7c4")
-	)
-	(label "A4"
-		(at 204.47 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "544a8c3f-ecf0-41b8-837a-7dda7f1cdb17")
 	)
 	(label "SCK"
 		(at 139.7 50.8 180)
@@ -6084,16 +6098,6 @@
 			(justify right bottom)
 		)
 		(uuid "d99cc807-6dd1-4645-93d4-75e21d01b786")
-	)
-	(label "A5"
-		(at 204.47 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d9c0e8d2-338f-4234-9a56-2f4313164798")
 	)
 	(label "D9"
 		(at 133.35 124.46 0)
