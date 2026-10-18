@@ -12,3 +12,10 @@ jobs:
   check:
     name: kicad-ci
     uses: solar-cooker-UHasselt/kicad-ci/.github/workflows/kibot.yml@v1
+  pages:
+    name: kicad-ci
+    needs: check
+    permissions:
+      pages: write
+      id-token: write
+    uses: solar-cooker-UHasselt/kicad-ci/.github/workflows/pages.yml@v1
