@@ -4,6 +4,15 @@
 	(generator_version "10.0")
 	(uuid "ed3950ec-e24f-4dd6-b9cc-eca012f1333b")
 	(paper "A4")
+	(title_block
+		(title "Testing station")
+		(date "2026-10-18")
+		(rev "1.0")
+		(company "UHasselt, Solar Cooker")
+		(comment 1 "Testing station for the solar cooker breakouts")
+		(comment 2 "Design: Lowie Van Vyve")
+		(comment 3 "github.com/solar-cooker-UHasselt/kicad-testing-station")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x06_Socket"
 			(pin_names

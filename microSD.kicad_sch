@@ -4,6 +4,15 @@
 	(generator_version "10.0")
 	(uuid "85c6d234-cd4d-46aa-8f47-6236ca473474")
 	(paper "A4")
+	(title_block
+		(title "Testing station")
+		(date "2026-10-18")
+		(rev "1.0")
+		(company "UHasselt, Solar Cooker")
+		(comment 1 "Testing station for the solar cooker breakouts")
+		(comment 2 "Design: Lowie Van Vyve")
+		(comment 3 "github.com/solar-cooker-UHasselt/kicad-testing-station")
+	)
 	(lib_symbols
 		(symbol "Connector:Micro_SD_Card_Det2"
 			(exclude_from_sim no)

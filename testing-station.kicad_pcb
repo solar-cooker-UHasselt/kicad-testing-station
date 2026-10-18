@@ -7,6 +7,15 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Testing station")
+		(date "2026-10-18")
+		(rev "1.0")
+		(company "UHasselt, Solar Cooker")
+		(comment 1 "Testing station for the solar cooker breakouts")
+		(comment 2 "Design: Lowie Van Vyve")
+		(comment 3 "github.com/solar-cooker-UHasselt/kicad-testing-station")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(4 "In1.Cu" power)
