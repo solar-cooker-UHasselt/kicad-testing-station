@@ -1,5 +1,9 @@
 # KiCad Testing Station
 
+- [Board page](https://solar-cooker-uhasselt.github.io/kicad-testing-station/): 3D
+  renders, drawings, schematic and board PDF, interactive BOM and the BOM CSV for
+  Eurocircuits, rebuilt by CI on every push to `main`
+
 This repository uses design files from Adafruit and Arduino. The original design files from Adafruit are available [here](https://learn.adafruit.com/accessing-and-using-adafruit-pcb-design-files/finding-and-downloading). The Arduino UNO R4 WiFi CAD files can be found [here](https://docs.arduino.cc/hardware/uno-r4-wifi/).
 
 The Adafruit PCB files were created with [Autodesk Eagle](https://www.autodesk.com/products/eagle/free-download), and the Arduino UNO R4 WiFi was created in [Altium Designer](https://www.altium.com/altium-designer). This repository uses [KiCad](https://www.kicad.org/download/), so the design files need to be migrated first.
