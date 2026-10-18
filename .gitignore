@@ -35,3 +35,6 @@ fp-info-cache
 
 # Commit messages and local reports
 tmp/
+
+# KiCad local history
+.history/
