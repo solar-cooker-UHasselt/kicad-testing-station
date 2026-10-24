@@ -4,8 +4,8 @@ on:
   push:
     branches: [ main ]
     paths-ignore: [ "**.md" ]
+  # Every pull request, docs too: main requires this check before a merge
   pull_request:
-    paths-ignore: [ "**.md" ]
   workflow_dispatch:
 
 jobs:
