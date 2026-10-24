@@ -38,3 +38,9 @@ tmp/
 
 # KiCad local history
 .history/
+
+# KiBot reports
+reports/
+
+# Generated outputs (just pdf, KiBot)
+outputs/
